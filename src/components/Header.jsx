@@ -1,7 +1,7 @@
 export default function Header() {
     return (
-        <header>
-        <h1 className="text-red-800">Joelle Johnson</h1>
+        <header className="flex flex-row w-full justify-between text-slate-50">
+        <h1 className="font-bold">Joelle Johnson</h1>
         <nav>
             <ul>
             <li><a href="#about">About</a></li>
