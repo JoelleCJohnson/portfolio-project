@@ -4,12 +4,13 @@ import Contact from './components/Contact.jsx';
 import Footer from './components/Footer.jsx';
 import Header from './components/Header.jsx';
 import Projects from './components/Projects.jsx';
+import profilePic from './profile_pic.JPG';
 
 function App() {
   return (
     <main className='bg-slate-800 h-screen'>
     <Header />
-    <img src='/Users/joellejohnson/personal_projects/portfolio-project/public/profile_pic.JPG'/>
+    <img src={profilePic} className='h-1/2 w-auto align-center'/>
     <About />
     <Projects />
     <Contact />
