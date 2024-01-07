@@ -9,7 +9,7 @@ function App() {
   return (
     <main className='bg-slate-800 h-screen'>
     <Header />
-    
+    <img src='/Users/joellejohnson/personal_projects/portfolio-project/public/profile_pic.JPG'/>
     <About />
     <Projects />
     <Contact />
