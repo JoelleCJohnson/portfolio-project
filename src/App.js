@@ -8,13 +8,15 @@ import profilePic from './profile_pic.JPG';
 
 function App() {
   return (
-    <main className='bg-slate-800 h-screen'>
-    <Header />
-    <img src={profilePic} className='h-1/2 w-auto align-center'/>
-    <About />
-    <Projects />
-    <Contact />
-    <Footer />
+    <main className='bg-slate-800'>
+      <Header />
+      <div className='flex justify-center h-auto w-1/2'>
+        <img src={profilePic} className='shadow rounded-md m-10'/>
+      </div>
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
     </main>
   );
 }
