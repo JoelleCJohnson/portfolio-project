@@ -1,6 +1,6 @@
 export default function Projects(){
     return(
-        <section id="projects" className="flex flex-col justify-center items-center text-slate-50">
+        <section id="projects" className="flex flex-col justify-center items-center text-slate-50 m-2 shadow bg-slate-900">
             <h2 className="text-3xl font-bold">Projects</h2>
             <p className="text-xl">Here are some of my projects:</p>
             <ul className="flex flex-col items-center w-15/16">

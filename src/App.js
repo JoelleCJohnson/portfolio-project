@@ -9,6 +9,7 @@ function App() {
   return (
     <main className='bg-slate-800 h-screen'>
     <Header />
+    
     <About />
     <Projects />
     <Contact />
